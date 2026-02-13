@@ -1,0 +1,14 @@
+\begin{table}[!ht]
+\centering
+\begin{tabular}{llllll}
+\toprule
+algorithm & time\_ms & mem\_kb & mae\_all & mre\_pct\_all & spearman \\
+\midrule
+Exact & 0.88 & 5.46 & 0.0000 & 0.00\textbackslash \% & 1.0000 \\
+FixedProb(p=0.5) & 0.93 & 5.61 & 5.6743 & 28.70\textbackslash \% & 0.9753 \\
+FrequentCount(k=100) & 1.03 & 5.46 & 0.0000 & 0.00\textbackslash \% & 1.0000 \\
+\bottomrule
+\end{tabular}
+\caption{Algorithm comparison summary (Netflix release\_year)}
+\label{tab:summary_metrics}
+\end{table}
